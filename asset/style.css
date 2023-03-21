@@ -217,7 +217,7 @@ table{
 table td{
     
     border-bottom:1px solid black;
-    
+ 
     
 }
 table th{
@@ -248,6 +248,10 @@ table td{  color:#75798e;
 .td-data{
     gap:10px;
    
+}
+.p-left{
+   padding-left: 0px;
+    
 }
 
 .span-bold{
