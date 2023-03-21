@@ -16,6 +16,12 @@ body {
 :root{
     --aside-bg-color:#363740
 }
+.circle{
+    width:30px;
+    height:30px;
+    background:#3559fa;
+    border-radius: 50%;
+}
 .disp-flex {
     display: flex;
    
@@ -31,7 +37,12 @@ body {
     text-align: center;
    
 }
-
+.fa{
+    width:20px;
+}
+.left{
+    margin-left: 20px;
+}
 .disp-horizontal-center{
     justify-content: center;
 }
@@ -50,13 +61,14 @@ width:320px;
     margin-top: 20px;
     align-items: center;
     justify-content: center;
-   
+   gap:10px;
+   margin-left:20px;
 }
 .aside-content{
   
     gap:30px;
     margin-top: 50px;
-    overflow:auto;
+    
     
 }
 ul {
@@ -121,7 +133,7 @@ li>a >span{
     gap:30px;
     align-items: center;
     justify-content: center;
-    margin-left:1130px;
+    margin-left:1120px;
     border-right:2px solid #f0f1f7;
     width:100px;
     height:30px;
